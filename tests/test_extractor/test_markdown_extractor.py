@@ -9,6 +9,7 @@ def test_markdown_extractor():
     text_docs = extractor.extract()
     for d in text_docs:
         assert d.metadata
+        
         assert d.page_content
 
         logger.info("----->")

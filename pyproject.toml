@@ -18,10 +18,11 @@ chardet = "^5.1.0"
 requests = "^2.30.0"
 mammoth = "^1.8.0"
 jieba = "^0.42.1"
-pandas = "2.2.2"
+pandas = ">=1.5.3,<2.0.0"
 numpy = "1.26.4"
 markdown2 = "^2.5.2"
 openpyxl = "^3.1.5"
+xlrd = "^1.2.0"
 
 [[tool.poetry.source]]
 name = "mirrors"
